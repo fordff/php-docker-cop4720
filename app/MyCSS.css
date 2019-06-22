@@ -1,0 +1,185 @@
+.MyCSS {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: x-small;
+	font-style: normal;
+	line-height: normal;
+	color: #CC0000;
+	background-color: #69B8D6;
+	background-position: center;
+
+}
+
+.mydiv{
+	border: 1px solid #0568A3;
+	background-color: F7941D;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+
+}
+.banner {
+	font-family: "Courier New", Courier, mono;
+	font-size: 24pt;
+	background-color: #FFFFFF;
+	color: #000000;
+	text-align: center;
+	vertical-align: middle;
+	background-image:  url(Images/middletitle.gif);
+	border: 1px solid #000000;
+	background-repeat: repeat-x;
+	}
+	
+.title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	color: #FFFFFF;
+	background-color: #990000;
+	text-align: center;
+	vertical-align: middle;
+	border: thin solid #000000;
+}
+.tbletitle {
+	background-color: #990000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: #FFFFFF;
+	border: 1px solid #990000;
+	width: auto;
+}
+.myfont{
+	font-family: President;
+	font-size: small;
+	font-style: normal;
+	line-height: normal;
+	color: #0568A3;
+	text-decoration: none;
+}
+a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FF3300;
+	text-decoration: none;
+}
+a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #3333FF;
+	text-decoration: none;
+	
+}
+a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FF9933;
+	text-decoration: none;
+	
+}
+a:active {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #993333;
+	text-decoration: none;
+}
+#navlist {
+	position: relative;
+
+	}
+
+#navlist li {
+	display: inline;
+	list-style-type: none;
+}
+
+#navlist ul {
+	/*/*/margin: 0;
+	white-space: nowrap;
+	padding: 0; /* */
+}
+#navlist a {
+	/*/*/padding: 1px 8px 1px 24px;
+	border: 1px solid #333;
+	background-color: #999;
+	background-image:    url("../Images/l1_down.gif"); /* */
+}
+#navlist a:link, #navlist a:visited {
+	color: #000;
+	/*/*/color: #EEE;
+	text-decoration: none; /* */
+}
+#navlist a:hover {
+	border: 1px solid #333;
+	background-color: #FF6600;
+	background-image:   url(Images/l1_over.gif);
+	color: #333;
+}
+#uberlink a:link, #uberlink a:visited, #uberlink a:hover {
+	/*/*/border: 1px solid #333;
+	background-color: #FF6600;
+	background-image:   url(Images/l1_over.gif);
+	color: #333; /* */
+}
+.content {
+	margin:0px;
+	padding:0px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: small;
+	color: #000000;
+	background-repeat: no-repeat;
+	background-color: #FFFFFF;
+	/*background-attachment: fixed;
+	background-image: url(Images/Earth-Streaks.jpg);
+	background-position: 350px 150px;*/
+
+
+}
+.footer {
+	font-family: President;
+	font-size: x-small;
+	font-style: normal;
+	color: #000000;
+	bottom: 0px;
+	}
+input {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: 1px solid #88a0C8;
+}
+hr {
+	font-size: x-small;
+	color: #0568A3;
+	background-color: #0568A3;
+}
+.bannerCopy {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: large;
+	background-color: #88A0C8;
+	color: #FFFFFF;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid #000000;
+	left: 10px;
+}
+.error {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-style: normal;
+	color: #FF0000;
+	bottom: 0px;
+}
+.forms {
+	BORDER-RIGHT: #3868a0 1px ridge; 
+	BORDER-TOP: #336699 1px ridge;
+	FONT-SIZE: 12px; 
+	BORDER-LEFT: #3868a0 1px ridge;
+	COLOR: #336699;
+	BORDER-BOTTOM: #3868a0 1px ridge; 
+	FONT-FAMILY: Geneva, Arial, Helvetica, san-serif;
+	BACKGROUND-COLOR: #ffffff
+}
+.style3 {
+	color: #FF9933;
+	font-weight: bold;
+}
+.style4 {color: #FF8000}
+body
+ {
+	background-color: #9CBFE2;
+}
+

@@ -1,0 +1,334 @@
+Insert Into Hospitals Values ('1', 'Shands at UF', '___-___', 'street_Add1', 'city1', 'state1', 13444);
+Insert Into Hospitals Values ('2', 'Shands at Lake Side', '___-___', 'street_Add2', 'city2', 'state2', 12243);
+Insert Into Hospitals Values ('3', 'Alachua General', '___-___', 'street_Add3', 'city3', 'state3', 12344);
+Insert Into Hospitals Values ('4', 'hospname4', '___-___', 'street_Add4', 'city4', 'state4', 12354);
+Insert Into Hospitals Values ('5', 'hospname5', '___-___', 'street_Add5', 'city5', 'state5', 12436);
+Insert Into Hospitals Values ('6', 'hospname6', '___-___', 'street_Add6', 'city6', 'state6', 12363);
+Insert Into Hospitals Values ('7', 'hospname7', '___-___', 'street_Add7', 'city6', 'state6', 12364);
+Insert Into Hospitals Values ('8', 'hospname8', '___-___', 'street_Add8', 'city6', 'state6', 13234);
+Insert Into Hospitals Values ('9', 'hospname9', '___-___', 'street_Add9', 'city6', 'state6', 12334);
+
+
+Insert Into Users Values ('1','authlast_Name1', 'authfirst_Name1', 'street_Address1', 'city1', 'state1', 1, 'passwd1', 'passwd2', '08-Dec-03','1', '1',1);
+Insert Into Users Values ('2','authlast_Name2', 'authfirst_Name2', 'street_Address2', 'city2', 'state2', 2, 'passwd1', 'passwd2', '08-Dec-03', '1','2',1);
+Insert Into Users Values ('3','authlast_Name3', 'authfirst_Name3', 'street_Address3', 'city3', 'state3', 3, 'passwd1', 'passwd2', '08-Dec-03', '1','2',1);
+Insert Into Users Values ('4','mike', 'smith', 'street_Address4', 'city4', 'state4', 4, 'passwd1', 'passwd2', '08-Dec-03', '1','2',2);
+Insert Into Users Values ('5','surglast_Name5', 'surgfirst_Name5', 'street_Address5', 'city5', 'state5', 5, 'passwd1', 'passwd2', '08-Dec-03', '1','2', 2);
+Insert Into Users Values ('6','surglast_Name6', 'surgfirst_Name6', 'street_Address6', 'city6', 'state6', 6, 'passwd1', 'passwd2', '08-Dec-03', '1','2', 2);
+Insert Into Users Values ('7','ford'  , 'frank', 'street_Address7', 'city7', 'state7', 7, 'passwd1', 'passwd2', '08-Dec-03', '1','2', 3);
+Insert Into Users Values ('8','mitchell'  , 'olinga', 'street_Address8', 'city8', 'state8', 8, 'passwd1', 'passwd2', '08-Dec-03', '1','2', 3);
+Insert Into Users Values ('9','adlast_Name9'  , 'adfirst_Name9', 'street_Address9', 'city9', 'state9', 9, 'passwd1', 'passwd2', '08-Dec-03', '1','2', 3);
+
+Insert Into Admin Values ('7');
+Insert Into Admin Values ('8');
+Insert Into Admin Values ('9');
+
+Insert Into Surgeons Values ('4', 'heart');
+Insert Into Surgeons Values ('5', 'brain');
+Insert Into Surgeons Values ('6', 'eye');
+
+Insert Into Auth_Personnel Values('1','nurse', '1');
+Insert Into Auth_Personnel Values('2','sectartary', '1');
+Insert Into Auth_Personnel Values('3','jobtitle3', '1'); 
+Insert Into Auth_Personnel Values('4','surgeon', '1');
+Insert Into Auth_Personnel Values('5','surgeon', '1');
+Insert Into Auth_Personnel Values('6','surgeon', '1'); 
+Insert Into Auth_Personnel Values('7','Admin', '1');
+Insert Into Auth_Personnel Values('8','Admin', '1');
+Insert Into Auth_Personnel Values('9','Admin', '1'); 
+select * from auth_personnel;
+
+insert into Patients Values ('1', '123-232-123','1','plast_name1','pfirst_name1','address1','city1','state1',12321,'01-DEC-03','08-DEC-03','5','1');
+insert into Patients Values ('2', '321-123-345','1','plast_name2','pfirst_name2','address2','city2','state2',12322,'02-DEC-03','08-DEC-03','5','2');
+insert into Patients Values ('3', '455-343-343','1','plast_name3','pfirst_name3','address3','city3','state3',12323,'03-DEC-03','08-DEC-03','6','3');
+insert into Patients Values ('4', '324-34-3243','1','plast_name4','pfirst_name4','address4','city4','state4',12324,'04-DEC-03','08-DEC-03','6','3');
+insert into Patients Values ('5', 'medrec5','1','plast_name5','pfirst_name5','address5','city5','state5',12325,'05-DEC-03','08-DEC-03','6','5');
+select * from patients;
+
+insert into List_Diagnosis values (0,'Root');
+insert into List_Diagnosis values (1, 'Intracranial Aneurysm');
+insert into List_Diagnosis values (2, 'ICA, Ophthalmic Segment');
+insert into List_Diagnosis values (3, 'Superior Hypoposeal Artery');
+insert into List_Diagnosis values (4, 'Saccular');
+insert into List_Diagnosis values (5, 'Dissecting');
+insert into List_Diagnosis values (6, 'Fusiform');
+insert into List_Diagnosis values (7, '4mm,');
+insert into List_Diagnosis values (8, '5-9mm');
+insert into List_Diagnosis values (9, '10-24mm');
+insert into List_Diagnosis values (10, '25mm');
+insert into List_Diagnosis values (11, 'Ophthalmic Artery');
+insert into List_Diagnosis values (12, 'Saccular');
+insert into List_Diagnosis values (13, 'Dissecting');
+insert into List_Diagnosis values (14, 'Fusiform');
+insert into List_Diagnosis values (15, '4mm,');
+insert into List_Diagnosis values (16, '5-9mm');
+insert into List_Diagnosis values (17, '10-24mm');
+insert into List_Diagnosis values (18, '25mm');
+insert into List_Diagnosis values (19, 'Dorsal Variant, Ophthalmic Segment');
+insert into List_Diagnosis values (20, 'Saccular');
+insert into List_Diagnosis values (21, 'Dissecting');
+insert into List_Diagnosis values (22, 'Fusiform');
+insert into List_Diagnosis values (23, '4mm,');
+insert into List_Diagnosis values (24, '5-9mm');
+insert into List_Diagnosis values (25, '10-24mm');
+insert into List_Diagnosis values (26, '25mm');
+select * from list_diagnosis;
+
+insert into Diagnosis_Tree Values(0,1);
+insert into Diagnosis_Tree Values(1,2);
+
+insert into Diagnosis_Tree Values(2,3);
+insert into Diagnosis_Tree Values(3,4);
+insert into Diagnosis_Tree Values(3,5);
+insert into Diagnosis_Tree Values(2,6);
+insert into Diagnosis_Tree Values(3,7);
+insert into Diagnosis_Tree Values(3,8);
+insert into Diagnosis_Tree Values(3,9);
+insert into Diagnosis_Tree Values(3,10);
+
+insert into Diagnosis_Tree Values(2,11);
+insert into Diagnosis_Tree Values(11,12);
+insert into Diagnosis_Tree Values(11,13);
+insert into Diagnosis_Tree Values(11,14);
+insert into Diagnosis_Tree Values(11,15);
+insert into Diagnosis_Tree Values(11,16);
+insert into Diagnosis_Tree Values(11,17);
+insert into Diagnosis_Tree Values(11,18);
+
+insert into Diagnosis_Tree Values(2,19);
+insert into Diagnosis_Tree Values(19,20);
+insert into Diagnosis_Tree Values(19,21);
+insert into Diagnosis_Tree Values(19,22);
+insert into Diagnosis_Tree Values(19,23);
+insert into Diagnosis_Tree Values(19,24);
+insert into Diagnosis_Tree Values(19,25);
+insert into Diagnosis_Tree Values(19,26);
+select * from Diagnosis_Tree;
+
+insert into Diagnosis values(1,5,1,'01-DEC-03',1);
+insert into Diagnosis values(2,5,1,'02-DEC-03',2);
+insert into Diagnosis values(3,5,2,'03-DEC-03',3);
+insert into Diagnosis values(4,6,6,'04-DEC-03',4);
+insert into Diagnosis values(5,6,6,'05-DEC-03',5);
+select * Diagnosis;
+
+insert into Patient_Diagnosis values ('1','1');
+insert into Patient_Diagnosis values ('2','2');
+insert into Patient_Diagnosis values ('3','3');
+insert into Patient_Diagnosis values ('4','4');
+insert into Patient_Diagnosis values ('5','5');
+select * from Patient_diagnosis;
+
+insert into List_Procedure values (0,'Root');
+insert into List_Procedure values(1,'Cranial Surgery');
+insert into List_Procedure values(2,'Extracranial Vascular Surgery');
+insert into List_Procedure values(3,'Endovascular');
+insert into List_Procedure values(4,'Spinal Surgery');
+insert into List_Procedure values(5,'Peripheral Nerve Surgery');
+insert into List_Procedure values(6,'CSF Shunting Surgery');
+insert into List_Procedure values(7,'Non-Operative');
+insert into List_Procedure values(8,'Functional and Pain Surgery');
+select * from list_procedure;
+
+insert into Procedure_Tree values(0,1);
+insert into Procedure_Tree values(0,2);
+select * from Procedure_tree;
+
+insert into Procedures values(1,'done',5,6,6,SYSDATE,1);
+insert into Procedures values(2,'done',6,5,5,SYSDATE,2);
+select * from Procedures;
+
+insert into List_Complication values (0,'Root');
+Insert Into List_Complication Values(1,'clinical Events');
+Insert Into List_Complication Values(2,'intraoperative Events');
+Insert Into List_Complication Values(3,'postoperative Events');
+Insert Into List_Complication Values(4,'actions Required');
+Insert Into List_Complication Values(5,'severity');
+Insert Into List_Complication Values(6,'duration');
+Insert Into List_Complication Values(7,'outcome');
+
+Insert Into List_Complication Values(8,'hemiparesis');
+Insert Into List_Complication Values(9,'hemianopsia');
+Insert Into List_Complication Values(10,'other Vision Loss');
+Insert Into List_Complication Values(11,'hemibody Paresthesia/Anesthesia');
+Insert Into List_Complication Values(12,'aphasia');
+Insert Into List_Complication Values(13,'apraxia');
+Insert Into List_Complication Values(14,'coma');
+Insert Into List_Complication Values(15,'prolonged Hospitalization');
+Insert Into List_Complication Values(16,'quadraparesis');
+Insert Into List_Complication Values(17,'other (List)');
+
+Insert Into List_Complication Values(18,'intraoperative Aneurysm Rupture');
+Insert Into List_Complication Values(19,'intraoperative Avm Rupture');
+Insert Into List_Complication Values(20,'intraoperative Ich');
+Insert Into List_Complication Values(21,'intraoperative Thromboembolic Occlusion');
+Insert Into List_Complication Values(22,'intraoperative Dissection');
+Insert Into List_Complication Values(23,'intraoperative Perforator Injury');
+Insert Into List_Complication Values(24,'other (List)');
+
+Insert Into List_Complication Values(25,'wound Infection');
+Insert Into List_Complication Values(26,'pneumonia');
+Insert Into List_Complication Values(27,'dvt');
+Insert Into List_Complication Values(28,'pe');
+Insert Into List_Complication Values(29,'seizures');
+Insert Into List_Complication Values(30,'uti');
+Insert Into List_Complication Values(31,'stroke');
+Insert Into List_Complication Values(32,'hemorrage');
+Insert Into List_Complication Values(33,'other (List)');
+
+Insert Into List_Complication Values(34,'return To Or');
+Insert Into List_Complication Values(35,'medications');
+Insert Into List_Complication Values(36,'bedside Procedure');
+Insert Into List_Complication Values(37,'new Hospitalization');
+Insert Into List_Complication Values(38,'prolonged Hospitalization');
+Insert Into List_Complication Values(39,'no New Intervention Necessary');
+Insert Into List_Complication Values(40,'other (Lists)');
+
+Insert Into List_Complication Values(41,'mild');
+Insert Into List_Complication Values(42,'moderate');
+Insert Into List_Complication Values(43,'severe');
+
+Insert Into List_Complication Values(44,'transient < 1 Day');
+Insert Into List_Complication Values(45,'< 1 Week');
+Insert Into List_Complication Values(46,'< 1 Month');
+Insert Into List_Complication Values(47,'< 3 Months');
+Insert Into List_Complication Values(48,'permanent');
+
+Insert Into List_Complication Values(49,'back To Work');
+Insert Into List_Complication Values(50,'home');
+Insert Into List_Complication Values(51,'rehab');
+Insert Into List_Complication Values(52,'nursing Care');
+Insert Into List_Complication Values(53,'snf');
+Insert Into List_Complication Values(54,'continued Hospitalization');
+Insert Into List_Complication Values(55,'death');
+select * from list_complication;
+
+Insert Into Complications Values(1,'1', 1);
+Insert Into Complications Values(2,'1', 2);
+Insert Into Complications Values(3,'1', 1);
+Insert Into Complications Values(4,'4', 1);
+Insert Into Complications Values(5,'4', 1);
+Insert Into Complications Values(6,'5', 1); 
+
+Insert Into Complication_Tree Values (0, 1);
+Insert Into Complication_Tree Values (1, 8);
+Insert Into Complication_Tree Values (1, 9);
+Insert Into Complication_Tree Values (1, 10);
+Insert Into Complication_Tree Values (1, 11);
+Insert Into Complication_Tree Values (1, 12);
+Insert Into Complication_Tree Values (1, 13);
+Insert Into Complication_Tree Values (1, 14);
+Insert Into Complication_Tree Values (1, 15);
+Insert Into Complication_Tree Values (1, 16);
+Insert Into Complication_Tree Values (1, 17);
+
+Insert Into Complication_Tree Values (0, 2);
+Insert Into Complication_Tree Values (2, 18);
+Insert Into Complication_Tree Values (2, 19);
+Insert Into Complication_Tree Values (2, 20);
+Insert Into Complication_Tree Values (2, 21);
+Insert Into Complication_Tree Values (2, 22);
+Insert Into Complication_Tree Values (2, 23);
+Insert Into Complication_Tree Values (2, 24);
+
+Insert Into Complication_Tree Values (0, 3);
+Insert Into Complication_Tree Values (3, 25);
+Insert Into Complication_Tree Values (3, 26);
+Insert Into Complication_Tree Values (3, 27);
+Insert Into Complication_Tree Values (3, 28);
+Insert Into Complication_Tree Values (3, 29);
+Insert Into Complication_Tree Values (3, 30);
+Insert Into Complication_Tree Values (3, 31);
+Insert Into Complication_Tree Values (3, 32);
+Insert Into Complication_Tree Values (3, 33);
+
+Insert Into Complication_Tree Values (0, 4);
+Insert Into Complication_Tree Values (4, 34);
+Insert Into Complication_Tree Values (4, 35);
+Insert Into Complication_Tree Values (4, 36);
+Insert Into Complication_Tree Values (4, 37);
+Insert Into Complication_Tree Values (4, 38);
+Insert Into Complication_Tree Values (4, 39);
+Insert Into Complication_Tree Values (4, 40);
+ 
+Insert Into Complication_Tree Values (0, 5); 
+Insert Into Complication_Tree Values (5, 41);
+Insert Into Complication_Tree Values (5, 42);
+Insert Into Complication_Tree Values (5, 43);
+
+Insert Into Complication_Tree Values (0,6);
+Insert Into Complication_Tree Values (6, 44);
+Insert Into Complication_Tree Values (6, 45);
+Insert Into Complication_Tree Values (6, 46);
+Insert Into Complication_Tree Values (6, 47);
+Insert Into Complication_Tree Values (6, 48);
+
+Insert Into Complication_Tree Values (0, 7);
+Insert Into Complication_Tree Values (7, 49);
+Insert Into Complication_Tree Values (7, 50);
+Insert Into Complication_Tree Values (7, 51);
+Insert Into Complication_Tree Values (7, 52);
+Insert Into Complication_Tree Values (7, 53);
+Insert Into Complication_Tree Values (7, 54);
+Insert Into Complication_Tree Values (7, 55);
+select * from complication_tree;
+
+Insert Into Tests Values (1, 'glasgow');
+Insert Into Tests Values (2, 'modified Rankin');
+Insert Into Tests Values (3, 'glasgow Coma');
+Insert Into Tests Values (4, 'nih Stroke');
+Insert Into Tests Values (5, 'pain');
+Insert Into Tests Values (6, 'sf-36');
+select * from tests;
+
+Insert Into Scale Values (1,1, 'glasgow Outcome Scale');
+Insert Into Scale Values (1,2, 'glasgow Outcome Scale');
+Insert Into Scale Values (1,3, 'glasgow Outcome Scale');
+Insert Into Scale Values (1,4, 'glasgow Outcome Scale');
+Insert Into Scale Values (1,5, 'glasgow Outcome Scale');
+select * from Scale;
+
+Insert Into Workswith Values ('1', 'smith');
+Insert Into Workswith Values ('1', '5');
+Insert Into Workswith Values ('1', '6');
+Insert Into Workswith Values ('2', 'smith');
+Insert Into Workswith Values ('2', '5');
+Insert Into Workswith Values ('2', '6');
+Insert Into Workswith Values ('3', 'smith');
+Insert Into Workswith Values ('3', '5');
+Insert Into Workswith Values ('3', '6');
+
+select * from Workswith;
+
+
+select com_name from complication_tree,list_complication where complication_tree.parent_proc =0 and comp_list_id = child_proc; 
+
+CREATE OR REPLACE TRIGGER user_insert_admin
+AFTER INSERT ON users
+REFERENCING NEW AS newRow
+FOR EACH ROW
+WHEN (newRow.Position = 3)
+BEGIN
+INSERT INTO ADMIN VALUES(:newRow.USERID);
+END user_insert_admin;
+.
+run
+
+CREATE OR REPLACE TRIGGER user_insert_Auth_Personnel
+AFTER INSERT ON users
+REFERENCING NEW AS newRow 
+FOR EACH ROW
+BEGIN
+INSERT INTO Auth_Personnel VALUES(:newRow.USERID,:newRow.Position,:newRow.Hospid);
+END user_insert_Auth_Personnel;
+.
+run
+
+Insert Into Users Values ('12239','adlast_Name9'  , 'adfirst_Name9', 'street_Address9', 'city9', 'state9', 9, 'passwd1', 'passwd2', '08-Dec-03', '1','2', 3);
+
+CREATE SEQUENCE sequence_name
+    MINVALUE value
+    MAXVALUE value
+    START WITH  value
+    INCREMENT BY value
+    CACHE value; 

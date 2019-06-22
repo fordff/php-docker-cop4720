@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  cop4720-php:
+    image: cop4720-php
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000

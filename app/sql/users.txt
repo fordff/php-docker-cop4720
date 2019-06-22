@@ -1,0 +1,9 @@
+ 1|authlast_Name1|authfirst_Name1|street_Address1|city1|state1|1|passwd1|passwd2|08-Dec-03|1|1|1
+ 2|authlast_Name2|authfirst_Name2|street_Address2|city2|state2|2|passwd1|passwd2|08-Dec-03|1|2|1
+ 3|authlast_Name3|authfirst_Name3|street_Address3|city3|state3|3|passwd1|passwd2|08-Dec-03|1|2|1
+ smith|mike|smith|street_Address4|city4|state4|4|passwd1|passwd2|08-Dec-03|1|2|2
+ 5|surglast_Name5|surgfirst_Name5|street_Address5|city5|state5|5|passwd1|passwd2|08-Dec-03|1|2|2
+ 6|surglast_Name6|surgfirst_Name6|street_Address6|city6|state6|6|passwd1|passwd2|08-Dec-03|1|2|2
+ ford|ford|frank|street_Address7|city7|state7|7|passwd1|passwd2|08-Dec-03|1|2|3
+ mitchell|mitchell|olinga|street_Address8|city8|state8|8|passwd1|passwd2|08-Dec-03|1|2|3
+ 9|adlast_Name9|adfirst_Name9|street_Address9|city9|state9|9|passwd1|passwd2|08-Dec-03|1|2|3

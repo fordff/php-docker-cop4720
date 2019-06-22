@@ -1,5 +1,5 @@
 
-FROM php:7.1.8-apache
+FROM php:7.2-apache
 
 
 COPY . /var/www/html/
